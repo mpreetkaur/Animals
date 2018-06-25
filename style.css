@@ -1,0 +1,82 @@
+html, body {
+  margin: 0px;
+}
+.head {
+  text-align: center;
+}
+.main {
+    margin: 0px auto 20px auto;
+}
+@media screen and (max-width: 649px) {
+    .hero {
+        width: 100%;
+    }
+    .image {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .box {
+        width: 200px;
+        height: 150px;
+        overflow: hidden;
+    }
+    .sub {
+        width: 100%;
+        margin: 20px;
+    }
+    
+}
+@media screen and (min-width: 650px) {
+    
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .main {
+        width: 100%;
+    }
+    .hero {
+        width: 100%;
+    }
+    .image {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 100%;
+    }
+    .sub {
+        width: 100%;
+    }
+    .box {
+        width: 200px;
+        height: 150px;
+        overflow: hidden;
+     }
+
+}
+
+@media screen and (min-width: 801px) {
+   
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        max-width: 980px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .head {
+        font-size: 50px;
+    }
+    .hero {
+        width: 100%;
+    }
+    .main {
+        height: 300px;
+        overflow: hidden;
+    }
+}
+
+  
